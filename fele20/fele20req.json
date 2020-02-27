@@ -1,0 +1,8 @@
+{ 
+	"software": [{ 
+		"relid":"FELE20", 
+		"description":"IBM z/OS Explorer Extensions",
+		"prereq":[],
+		"coreq": []
+	}] 
+}
