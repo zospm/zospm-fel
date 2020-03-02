@@ -2,6 +2,7 @@
         "software": [
         {
                 "name":"FELE20",
+                "parent":"FEK311",
                 "datasets":[
                         {
                                 "dsname":"SFELZFS",
@@ -9,19 +10,9 @@
                                 "primary":150,
                                 "secondary":15,
                                 "zones":["T"],
-                                "dddefpath":"usr/lpp/IBM/zee/IBM/",
-                                "mountpnt":"usr/lpp/IBM/zee/",
-				"leaves":"IBM"
-                        },
-                        {
-                                "dsname":"SFEKZFS",
-                                "dstype":"ZFS",
-                                "primary":2,
-                                "secondary":1,
-                                "zones":["T"],
-                                "dddefpath":"usr/lpp/IBM/zexpl/IBM/",
-                                "mountpnt":"usr/lpp/IBM/zexpl/",
-                                "leaves":"IBM"
+                                "dddefpath":"usr/lpp/IBM/fel/fele20/zee/IBM/",
+                                "mountpnt":"usr/lpp/IBM/fel/fele20/zee/",
+				"leaves":"IBM,bin,lib,lib/wsbind,samples,samples/zunit,samples/zunit/xsd,samples/zunit/xsl"
                         },
                         {
                                 "dsname":"SFELLMOD",
@@ -87,15 +78,6 @@
                                 "secondary":25,
                                 "zones":["T"]
                         },
-                        {
-                                "dsname":"SFEKPROC",
-                                "dstype":"PDSE",
-                                "recfm":"FB",
-                                "lrecl":80,
-                                "primary":10,
-                                "secondary":5,
-                                "zones":["T"]
-                        },
                        {
                                 "dsname":"AFELLOAD",
                                 "dstype":"PDSE",
@@ -140,7 +122,7 @@
                                 "primary":210,
                                 "secondary":25,
                                 "zones":["D"]
-                        },
+                        }
                 ]
         }
         ]
