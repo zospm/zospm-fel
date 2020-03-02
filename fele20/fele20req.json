@@ -1,0 +1,29 @@
+{ 
+	"software": [{ 
+		"relid":"FELE20",
+		"description":"IBM z/OS Explorer Extensions",
+		"prereq":
+		[
+			{  
+			"prodid":"FEK",
+			"description":"z/OS Explorer Base",
+			"release":
+			[
+				{
+				"relid":"FEK311",
+				"fmids": [
+					{
+					"fmid":"HALG310",
+					"description":"z/OS Explorer 3.1.1",
+					"ptfs":	[
+						"HALG310" 
+					]
+					}
+				]
+				}
+			]
+			}
+		],
+		"coreq": []
+	}] 
+}
