@@ -1,7 +1,7 @@
 {
         "software": [
         {
-                "name":"FELE20",
+                "relid":"FELE20",
                 "parent":"FEK311",
                 "datasets":[
                         {
